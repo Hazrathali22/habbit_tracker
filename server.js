@@ -46,7 +46,7 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://divyagaurav:divyagaurav@cluster1.ispjeaf.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl: 'mongodb+srv://ali:alishan@cluster0.dhn2wo1.mongodb.net/?retryWrites=true&w=majority',
         autoRemove : 'disabled'
     },
         (err) => {
@@ -73,5 +73,5 @@ app.listen(port, (err)=>{
         console.log(`error in running on server${port}`)
         return;
     }
-    console.log(`Yeah ::)) Server is running on port ${port}`)
+    console.log(` Server is running bro congrats::)) ${port}`)
 })
